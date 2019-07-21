@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RSM.RsmProfileFragment"
+    android:background="@drawable/bg"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="18dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:padding="6dp"
+            android:fontFamily="monospace"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_useremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:padding="6dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Id"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_userid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:padding="6dp"
+            android:fontFamily="monospace"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_userpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:padding="6dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pin Code"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_userepincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:padding="6dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_usermobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:padding="6dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Designation"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:padding="6dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Field Force Code"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_userffc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:padding="6dp"
+            android:fontFamily="monospace"
+            />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SM.SmEditRsmFragment"
+
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/after_layout"
+    >
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Rsm FFC"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:id="@+id/region_spinner"
+
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="45dp"
+        android:id="@+id/bt_delete"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Select"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        />
+
+
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/before_layout"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm name"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="textAutoComplete"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm Email Address"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="textEmailAddress"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm Designation"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:spinnerMode="dialog"
+            android:id="@+id/et_designation"
+            android:entries="@array/rsm_spinner"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm - Tagged GSM/SM"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+
+            />
+        <EditText
+            android:id="@+id/sm_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm User Id"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/et_userid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm Password"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm Pin Code"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_pin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm Field Force Code"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:visibility="gone"
+
+            />
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/et_ffc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm Region"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:id="@+id/et_region"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rsm Mobile No"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:id="@+id/et_mobile"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/save_info"
+            android:layout_margin="15dp"
+            android:text="Save"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:background="@android:color/holo_orange_dark"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

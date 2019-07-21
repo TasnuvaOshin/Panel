@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Authentication.LoginFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon" />
+
+            <AutoCompleteTextView
+                android:layout_margin="10dp"
+                android:id="@+id/edit_user_id"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/appLogo"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_edit_box"
+                android:hint="User Id"
+                android:textColorHint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edit_pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/red_btn"
+                android:text="SIGN IN"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textSize="19dp"
+                android:layout_margin="25dp"
+                />
+
+
+
+            <EditText
+                android:layout_margin="10dp"
+                android:id="@+id/edit_pass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/edit_user_id"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_edit_box"
+                android:hint="Password"
+                android:textColorHint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

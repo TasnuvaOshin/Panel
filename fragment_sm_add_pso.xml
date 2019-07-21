@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    tools:context=".SM.PSO.SmAddPsoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso name"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="textAutoComplete"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Email Address"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="textEmailAddress"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Designation"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:spinnerMode="dialog"
+            android:id="@+id/sp_designation"
+            android:entries="@array/rsm_spinner"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso - Tagged GSM/SM"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+
+            />
+        <EditText
+            android:id="@+id/sm_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso - Tagged RSM"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+
+            />
+        <Spinner
+            android:spinnerMode="dialog"
+            android:id="@+id/rsm_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso - Tagged DSM"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+
+            />
+        <Spinner
+            android:spinnerMode="dialog"
+            android:id="@+id/dsm_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso User Id"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_userid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Password"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Pin Code"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_pin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Field Force Code"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_ffc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Region"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:id="@+id/region_spinner"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Head Quartar"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Depo"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+            android:id="@+id/et_depo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="text"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Phone No"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <EditText
+
+            android:id="@+id/et_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:inputType="phone"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pso Team"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:padding="6dp"
+            android:id="@+id/team_spinner"
+
+            />
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/submit"
+            android:layout_margin="15dp"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:background="@android:color/holo_orange_dark"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

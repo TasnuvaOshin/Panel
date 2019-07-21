@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SM.SmAddRsmFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm name"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+<EditText
+    android:id="@+id/et_name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:padding="6dp"
+    android:inputType="textAutoComplete"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm Email Address"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm Designation"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:spinnerMode="dialog"
+        android:id="@+id/sp_designation"
+        android:entries="@array/rsm_spinner"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm - Tagged GSM/SM"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+
+        />
+    <EditText
+        android:id="@+id/sm_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:inputType="text"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm User Id"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <EditText
+        android:id="@+id/et_userid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:inputType="text"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm Password"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:inputType="text"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm Pin Code"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <EditText
+        android:id="@+id/et_pin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:inputType="text"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm Field Force Code"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <EditText
+        android:id="@+id/et_ffc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:inputType="text"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rsm Region"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:id="@+id/region_spinner"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/submit"
+        android:layout_margin="15dp"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:background="@android:color/holo_orange_dark"
+        />
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:id="@+id/RxLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_above="@+id/companyLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/vision_solo" />
+
+
+        <ImageView
+            android:id="@+id/companyLogo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/vision" />
+
+
+        <ImageView
+            android:id="@+id/companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_below="@+id/companyLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/renata_logo_" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

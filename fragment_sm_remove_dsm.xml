@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SM.DSM.SmRemoveDsmFragment"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Dsm FFC"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="8dp"
+
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:id="@+id/region_spinner"
+
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="45dp"
+        android:id="@+id/bt_delete"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Delete"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>

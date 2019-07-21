@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RSM.RsmFragment"
+    android:background="@drawable/bg"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/mainView"
+            >
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Rsm name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorWhite"
+
+                >
+
+                <Spinner
+
+
+                    android:layout_width="match_parent"
+                    android:spinnerMode="dialog"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rsm_spinner"
+
+
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Dsm name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorWhite"
+
+                >
+
+                <Spinner
+
+
+                    android:layout_width="match_parent"
+                    android:spinnerMode="dialog"
+                    android:layout_height="match_parent"
+                    android:id="@+id/dsm_spinner"
+
+
+                    />
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Pso name:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorWhite"
+
+                >
+
+                <Spinner
+
+
+                    android:layout_width="match_parent"
+                    android:spinnerMode="dialog"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pso_spinner"
+
+
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Product:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorWhite"
+
+                >
+
+                <Spinner
+
+
+                    android:layout_width="match_parent"
+                    android:spinnerMode="dialog"
+                    android:layout_height="match_parent"
+                    android:id="@+id/product_spinner"
+
+
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Team:"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorWhite"
+
+                >
+
+                <Spinner
+
+
+                    android:layout_width="match_parent"
+                    android:spinnerMode="dialog"
+                    android:layout_height="match_parent"
+                    android:id="@+id/team_spinner"
+
+
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Select Region :"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <RelativeLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorWhite"
+
+                >
+
+                <Spinner
+
+
+                    android:layout_width="match_parent"
+                    android:spinnerMode="dialog"
+                    android:layout_height="match_parent"
+                    android:id="@+id/region_spinner"
+
+
+                    />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Enter Brand Name :"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+
+                android:layout_margin="15dp"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:spinnerMode="dialog"
+                android:layout_height="50dp"
+                android:id="@+id/et_brand"
+                android:inputType="text"
+
+
+                />
+
+
+            <EditText
+                android:focusable="false"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/from_date"
+                android:clickable="true"
+                android:textColorHint="@android:color/black"
+                android:editable="false"
+                android:hint="Select From Date"/>
+            <EditText
+                android:focusable="false"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/to_date"
+                android:clickable="true"
+                android:editable="false"
+                android:hint="Select To Date"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:padding="16dp"
+                android:text="Download"
+                android:background="@android:color/holo_orange_dark"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:id="@+id/bt_download"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
